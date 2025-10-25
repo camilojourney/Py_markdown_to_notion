@@ -1,0 +1,40 @@
+# Environment variables - NEVER commit these!
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.history/
+
+# Test files
+text.md
+*.md.backup
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Notion backups (if you create any)
+backups/
+*.backup
+
+# Logs
+*.log
